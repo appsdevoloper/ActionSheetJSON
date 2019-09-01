@@ -54,7 +54,7 @@ class ViewController: UIViewController, UIActionSheetDelegate {
     // MARK: JSON Data Load
     
     func loadJSON(){
-        let urlPath = "https://api.myjson.com/bins/yg7y7"
+        let urlPath = ""
         let url = NSURL(string: urlPath)
         let session = URLSession.shared
         let task = session.dataTask(with: url! as URL) { data, response, error in
